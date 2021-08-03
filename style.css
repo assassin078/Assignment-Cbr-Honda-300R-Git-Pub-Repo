@@ -1,0 +1,366 @@
+
+    /* Navbar */
+
+header{
+    background-color: #264653;
+}
+nav{
+    background-color: #264653;
+}
+/* cause : after giving modal fixed top login modal stopped showing properly , then after debugging found the solution , had to override bootstrap class , took me a while to figure it :') */
+
+.modal-backdrop{
+    position: static;
+}
+        /*  Honda Cbr 300R */
+.Honda-Cbr-Info p{
+    font-family: Poppins !important ;
+    font-style: normal !important;
+    font-weight: 300 !important; 
+    font-size: 14px !important;
+    line-height: 22px !important;
+    /* identical to box height, or 157% */
+    color: #FFFFFF !important;
+}
+.Honda-Cbr-Info h1{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 72px !important;
+    color: #FFFFFF !important;
+}
+.purchase-button{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    /* identical to box height */
+    color: #FFFFFF !important;
+}
+.purchase-button:hover {
+    color: whitesmoke !important;
+    background-color: #0B0D17 !important;
+    border: 1px solid !important;
+    border-color: crimson !important;
+    
+}
+.Honda-Cbr-Image-xl-only{
+    width: 552px; height: 447px !important;
+
+}
+
+
+.Honda-Cbr-img-z-index{
+    z-index: 2 !important;
+}
+.pixel-img-z-index{
+    z-index: 1 !important;
+}
+        /* Featured Bikes 2021  */
+
+.Featured-Bikes-2021-heading{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 72px !important;
+    /* identical to box height */
+    color: #000000 !important;
+}
+.Featured-Bikes-2021-heading span{
+    color: #E76F51 !important;
+}
+.Featured-Bikes-2021-subheading{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    /* identical to box height */
+    color: #e76f51 !important;
+
+}
+.Featured-Bikes-2021-hr-line{
+    width: 58.5px !important;
+    height: 0px !important;
+    left: 691px !important;
+    top: 858.5px !important;
+    border: 1px solid #e76f51 !important;
+    border-radius: 1px !important;
+}
+.Featured-Bikes-left-image , .Featured-Bikes-right-image {
+    filter: grayscale(100%) !important;
+}
+
+        /* Latest News */
+
+.latest-news-heading{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 50px !important;
+    /* identical to box height, or 104% */
+    color: #0D0925 !important;
+}
+.latest-news-heading span{
+    color: #E76F51; 
+}
+.latest-news-subheading{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    line-height: 40px !important;
+    /* identical to box height, or 143% */
+
+    font-feature-settings: 'liga' off !important;
+
+    /* Text / Gray 900 */
+
+    color: #18191F !important;
+}
+
+.latest-news-article{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 32px !important;
+    /* or 200% */
+
+    font-feature-settings: 'liga' off !important;
+
+    color: #6C6C6C !important;
+
+}
+
+.read-more-btn{
+    background-color: #E76F51 !important ;
+}
+.read-more-btn{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;  
+    line-height: 27px !important;
+    /* identical to box height */
+
+    text-align: center !important;
+
+    color: #FFFFFF !important;
+}
+.read-more-btn:hover{
+    background-color: transparent !important ;
+    border-color: #E76F51 !important;
+    color:#E76F51 !important;
+}
+
+                            /* Happy Client Says */
+
+.Happy-Clients-Says-heading{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 72px !important;
+    /* identical to box height */
+    color: #0A0826;
+
+}
+.Happy-Clients-Says-heading span {
+    color: #E76F51 !important;
+}
+
+
+.client{
+    width:323px  ; height:478.01px !important;
+}
+.client-feedback {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    /* or 162% */
+
+    text-align: center !important;
+    letter-spacing: 0.2px !important;
+
+    color: #6C6C6C !important;
+}
+.client-name {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px !important;
+
+    /* primary-color */
+
+    color: #23A6F0 !important;
+
+}
+.client-profession{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px !important;
+
+    /* text-color */
+
+    color: #252B42 !important;
+}
+.fa-star{
+    color: #E77C40 !important;
+}
+.client-image{
+    width: 149px; height: 149px !important;
+}
+
+
+        /* FAQ */  
+.FAQ-Heading {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 50px !important;
+    /* identical to box height, or 104% */
+    color: #0D0925 !important;  
+}   
+.FAQ-Heading span {
+    color: #E76F51;
+}
+
+
+.FAQ-BANNER{
+    width: 431.2px !important;height: 423.5px !important;
+}
+
+.accordion-item{
+    border: 2px solid !important ;
+    border-color:#D5E5FB !important ;
+}
+.accordion-item h2{
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    /* or 140% */
+    font-feature-settings: 'tnum' on, 'lnum' on !important;
+    color: #383838 !important;
+
+}
+.accordion-body{
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: normal !important ;
+    font-size: 16px !important;
+    line-height: 28px !important;
+    /* or 175% */
+    font-feature-settings: 'tnum' on, 'lnum' on !important;
+    color: #7E848C !important;
+
+}
+/* Contact-US */
+.contact-us{
+    background-color: #E76F51;
+} 
+
+.contact-form h1{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 72px !important;
+    /* identical to box height */
+    color: whitesmoke;
+
+}
+.contact-us label {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px !important;
+
+    /* primary-color */
+
+    color: #252B42 !important;
+
+}
+
+.contact-us button {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px !important;
+
+    /* primary-color */
+
+    color: whitesmoke !important;
+
+}
+
+
+        /* Footer */
+footer {
+    background-color: #0B0D17;
+}
+
+footer a {
+    font-family: Manrope !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'liga' off !important;
+
+    /* Default / White */
+
+    color: #FFFFFF !important;
+
+}
+
+footer small{
+    font-family: Manrope !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'liga' off !important;
+
+    /* Text / Gray 300 */
+
+    color: #D9DBE1 !important;
+}
+
+footer li{
+    list-style-type: none !important;
+}
+
+
+/* d-block d-sm-none */
+/* d-none d-xl-block */
